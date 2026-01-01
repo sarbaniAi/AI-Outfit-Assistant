@@ -1,0 +1,10 @@
+command:
+  - gunicorn
+  - --bind=0.0.0.0:8000
+  - --workers=2
+  - --timeout=120
+  - app:app
+
+env:
+  - name: OPENAI_API_KEY
+    value: "${OPENAI_API_KEY}"  # Set via Databricks Secrets or environment

@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+frontend/dist/
+static/
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+coverage/
+.pytest_cache/
+
+# Databricks
+.databricks/
+
+# Large data files (use Git LFS or download separately)
+data/sample_clothes/sample_styles_with_embeddings.csv
+
+# Credentials (never commit)
+.git-credentials
+
