@@ -55,7 +55,7 @@ Search your clothing inventory using natural language.
 ## 📁 Project Structure
 
 ```
-databricks-retailnext/
+databricks-stylefit/
 ├── app.py                 # Main Flask application
 ├── app.yaml               # Databricks Apps configuration
 ├── requirements.txt       # Python dependencies
